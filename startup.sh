@@ -12,3 +12,6 @@ echo "ubuntu:$PASS" | chpasswd
 cd /web && ./run.py > /var/log/web.log 2>&1 &
 nginx -c /etc/nginx/nginx.conf
 exec /usr/bin/supervisord -n
+#JayRTech Editions
+#Install LMMS for Marika
+sudo apt-get -y install mysql-client
