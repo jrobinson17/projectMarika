@@ -5,6 +5,7 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV HOME /root
 
 RUN apt-get update \
+    && sudo apt-get build-dep lmms && sudo apt-get install libfltk1.3-dev \
     && apt-get install -y --force-yes --no-install-recommends supervisor \
         openssh-server pwgen sudo vim-tiny \
         net-tools \
