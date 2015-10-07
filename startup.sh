@@ -14,4 +14,4 @@ nginx -c /etc/nginx/nginx.conf
 exec /usr/bin/supervisord -n
 #JayRTech Editions
 #Install LMMS for Marika
-sudo apt-get -y install mysql-client
+sudo apt-get build-dep lmms && sudo apt-get install libfltk1.3-dev
