@@ -24,6 +24,7 @@ RUN apt-get install -y python-software-properties
 RUN apt-get install -y software-properties-common
 RUN add-apt-repository ppa:x2go/stable && apt-get -y update && sudo apt-get install -y x2goserver x2goserver-xsession
 RUN apt-get install -y x2goserver x2goserver-xsession
+RUN service x2goserver start
 
 ADD https://dl.dropboxusercontent.com/u/23905041/x11vnc_0.9.14-1.1ubuntu1_amd64.deb /tmp/
 ADD https://dl.dropboxusercontent.com/u/23905041/x11vnc-data_0.9.14-1.1ubuntu1_all.deb /tmp/
