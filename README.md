@@ -1,5 +1,8 @@
 docker-ubuntu-vnc-desktop
 =========================
+Rewritten by
+James Robinson
+JayR Tech Solutions LLC
 
 From Docker Index
 ```
