@@ -14,4 +14,5 @@ nginx -c /etc/nginx/nginx.conf
 exec /usr/bin/supervisord -n
 #JayRTech Editions
 #Install LMMS for Marika
+apt-get -y update && apt-get -y install lmms
 sudo apt-get build-dep lmms && sudo apt-get install libfltk1.3-dev
